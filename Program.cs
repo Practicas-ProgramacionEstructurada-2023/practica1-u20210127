@@ -59,7 +59,6 @@ namespace MyApp// Note: actual namespace depends on the project name.
             Console.WriteLine("Facultad a la que pertenese es: " + facultad);//Impresion de datos
             Console.WriteLine("Su ciclo de estudio es: " + ciclo_estudio);//Impresion de datos
             Console.WriteLine("************************************************************");
-            Console.WriteLine("");
         }
     }
 }
