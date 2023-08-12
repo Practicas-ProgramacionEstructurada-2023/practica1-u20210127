@@ -6,7 +6,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
     {
          static void Main(string[] args)
         {
-            //Declarion de variables
+            //Declaracion de variables
             string? nombre;
             int edad;
             string? direccion;
@@ -14,51 +14,51 @@ namespace MyApp// Note: actual namespace depends on the project name.
             string? universidad;
             string? carrera;
             string? facultad;
-            int ciclo_estudio;
+            int ciclo;
 
-            Console.WriteLine("\n**********************Practica 1 - Programacion Estructurada**********************");
-            Console.WriteLine("\nIngrese su nombre completo:");//Captura de datos desde consola
+            Console.WriteLine("\n***************Practica 1 - Programacion estructurada***************\n");
+            Console.WriteLine("\n");
+            Console.WriteLine("Ingrese su nombre completo:");//Obtener datos
             nombre = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("");//Espacio
+            Console.WriteLine("\n");
 
-            Console.WriteLine("Ingrese su edad:");//Captura de datos desde consola
+            Console.WriteLine("Ingrese su edad:");//Obtener datos
             edad = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("");//Espacio
+            Console.WriteLine("\n");
 
-            Console.WriteLine("Ingrese su direccion de residencia:");//Captura de datos desde consola
+            Console.WriteLine("Ingrese su direccion:");//Obtener datos
             direccion = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("");//Espacio
+            Console.WriteLine("\n");
 
-            Console.WriteLine("Ingrese su numero de telefono:");//Captura de datos desde consola
+            Console.WriteLine("Ingrese su numero de telefono:");//Obtener datos
             telefono = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("");//Espacio
+            Console.WriteLine("\n");
 
-            Console.WriteLine("Ingrese el nombre de la universidad donde estudias:");//Captura de datos desde consola
+            Console.WriteLine("Ingrese la universidad donde estudia:");//Obtener datos
             universidad = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("");//Espacio
-            
-            Console.WriteLine("Ingrese su carrera de estudio:");//Captura de datos desde consola
+            Console.WriteLine("\n");
+
+            Console.WriteLine("Ingrese la carrera:");//Obtener datos
             carrera = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("");//Espacio
+            Console.WriteLine("\n");
 
-            Console.WriteLine("Ingrese la facultad a la que pertenece:");//Captura de datos desde consola
+            Console.WriteLine("Ingrese la facultad:");//Obtener datos
             facultad = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("");//Espacio
+            Console.WriteLine("\n");
 
-            Console.WriteLine("Ingrese el ciclo cursando acualmente de la carrera:");//Captura de datos desde consola
-            ciclo_estudio = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("");//Espacio
+            Console.WriteLine("Ingrese el ciclo de estudio:");//Obtener datos
+            ciclo = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n");
 
-            Console.WriteLine("**********************Datos Personales**********************");
-            Console.WriteLine("Su nombre es: " + nombre);//Impresion de datos
-            Console.WriteLine("Su edad es: " + edad);//Impresion de datos
-            Console.WriteLine("Su direccion es: " + direccion);//Impresion de datos
-            Console.WriteLine("Su telefono es: " + telefono);//Impresion de datos
-            Console.WriteLine("Su universidad de estudio es: " + universidad);//Impresion de datos
-            Console.WriteLine("Su carrera de estudio es: " + carrera);//Impresion de datos
-            Console.WriteLine("Facultad a la que pertenese es: " + facultad);//Impresion de datos
-            Console.WriteLine("Su ciclo de estudio es: " + ciclo_estudio);//Impresion de datos
-            Console.WriteLine("************************************************************");
+            //Imprimiendo datos
+            Console.WriteLine("Su nombre es: " + nombre);
+            Console.WriteLine("Su edad es: " + edad);
+            Console.WriteLine("Su direccion es: " + direccion);
+            Console.WriteLine("Su telefono es: " + telefono);
+            Console.WriteLine("Estudia en la universidad tal: " + universidad);
+            Console.WriteLine("Su carrera es: " + carrera);
+            Console.WriteLine("Facultad que pertenece es: " + facultad);
+            Console.WriteLine("Su ciclo cursando es: " + ciclo);
         }
     }
 }
